@@ -1608,8 +1608,8 @@
 			}
 
 		}
-/*메뉴*/
-/*.column .media {
+/*야 탄아 드디어 찾아냈다 width가 25퍼로 되있잖아 100퍼로 하면 어떻게 되겠어 그 div 다차지하겠지*/
+.column .media {
 	-moz-animation: gallery 0.75s ease-out 0.4s forwards;
 	-webkit-animation: gallery 0.75s ease-out 0.4s forwards;
 	-ms-animation: gallery 0.75s ease-out 0.4s forwards;
@@ -1618,7 +1618,7 @@
 	overflow: hidden;
 	opacity: 0;
 	position: relative;
-	width: 25%;
+	width: 100%;
 }
 
 	.column .media a {
@@ -1640,4 +1640,4 @@
 		-webkit-transform: scale(1.075);
 		-ms-transform: scale(1.075);
 		transform: scale(1.075);
-	}*/
+	}

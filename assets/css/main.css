@@ -1609,18 +1609,35 @@
 
 		}
 /*메뉴*/
-/*#inner {
-	margin-left: 51px*/
-/*}
-#dish {
-	border-bottom: 2px solid rgb(170, 168, 168);
-padding-bottom: 18px;
-border-top: 2px solid rgb(170, 168, 168);
-border-color: rgb(170, 168, 168);
-padding-top: 21px;
-line-height: 1.15em !important;
-margin-top: 0px;
-margin-bottom: 0px;
-text-transform: uppercase;
+/*.column .media {
+	-moz-animation: gallery 0.75s ease-out 0.4s forwards;
+	-webkit-animation: gallery 0.75s ease-out 0.4s forwards;
+	-ms-animation: gallery 0.75s ease-out 0.4s forwards;
+	animation: gallery 0.75s ease-out 0.4s forwards;
+	margin-bottom: 0;
+	overflow: hidden;
+	opacity: 0;
+	position: relative;
+	width: 25%;
 }
-}*/
+
+	.column .media a {
+		display: block;
+	}
+
+	.column .media img {
+		-moz-transition: -moz-transform 0.2s ease-in-out;
+		-webkit-transition: -webkit-transform 0.2s ease-in-out;
+		-ms-transition: -ms-transform 0.2s ease-in-out;
+		transition: transform 0.2s ease-in-out;
+		max-width: 100%;
+		height: auto;
+		vertical-align: middle;
+	}
+
+	.column .media:hover img {
+		-moz-transform: scale(1.075);
+		-webkit-transform: scale(1.075);
+		-ms-transform: scale(1.075);
+		transform: scale(1.075);
+	}*/

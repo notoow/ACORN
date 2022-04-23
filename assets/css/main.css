@@ -25,7 +25,7 @@
 		display: flex;
 		flex-basis: 100%;
 		align-items: center;
-		color: rgba(0, 0, 0, 0.35);
+		color: black;
 		font-size: 12px;
 		margin: 8px 0px;
 	}
